@@ -1,0 +1,11 @@
+# build output
+*.out
+*.o
+*.exe
+Solutions/problem4.1
+Solutions/problem4.2
+
+# debug / runtime junk
+a.out
+core
+vgcore*
