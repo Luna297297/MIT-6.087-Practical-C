@@ -26,3 +26,8 @@ My first time using `static char *`.
 
 **Note:** `static char *` was stored in the Static/Global Storage.
 The difference between `signed int` and `unsigned int`.
+
+### 2026/1/16: Problem 4.3 solved.
+* Implemented Shell Sort using pointer arithmetic.
+
+**Note:** I used to worry about whether setting `cur - gap >= base` would cause undefined behavior, but then I realized it won't happen. The reason is: undefined behavior only occurs when a user tries to r/w an address they aren't allowed to access. Otherwise, even if the user calculates an illegal address, the behavior won't cause a Segment Fault.
