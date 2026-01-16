@@ -4,9 +4,10 @@
 *.exe
 Solutions/problem4.1
 Solutions/problem4.2
-
+Solutions/problem4.3
 # debug / runtime junk
 a.out
+*.o
 core
 vgcore*
 .DS_Store
