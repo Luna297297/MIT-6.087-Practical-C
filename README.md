@@ -31,3 +31,9 @@ The difference between `signed int` and `unsigned int`.
 * Implemented Shell Sort using pointer arithmetic.
 
 **Note:** I used to worry about whether setting `cur - gap >= base` would cause undefined behavior, but then I realized it won't happen. The reason is: undefined behavior only occurs when a user tries to r/w an address they aren't allowed to access. Otherwise, even if the user calculates an illegal address, the behavior won't cause a Segment Fault.
+
+### 2026/1/21: Problem 5.1 solved.
+* When freeing the linked list, traverse and deallocate every node starting from the haed to prevent memory leaks. Finally, simply set the entry pointer to `NULL` to avoid dangling pointers.
+
+### 2026/1/24: Problem 5.2 solved.
+* Implemented a Binary Search Tree(BST) using pointers. Using post-order traversal to safely deallocate the tree memory.
